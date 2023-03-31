@@ -1,0 +1,8 @@
+title Uusi muistiinpano, Single page app
+
+Selain->Palvelin: HTTP Get -pyyntö sivulle\nhttps://studies.cs.helsinki.fi/exampleapp/spa
+Palvelin->Selain: Vastauksena spa-sivun html-koodi
+Selain->Palvelin: Ladataan main.css ja spa.js
+note over Selain: 
+Spa.js-koodi käskee lataamaan Json-muotoisen datan\nja lisäämään sivulle muistiinpanot DOM-apin avulla
+end note
