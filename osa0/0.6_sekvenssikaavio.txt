@@ -1,0 +1,7 @@
+title Uusi muistiinpano, Single page app
+
+Selain->Palvelin: HTTP Post -pyyntö sivulle\nhttps://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over Selain:
+/spa sivun mukana tulevan spa.js-tiedoston koodin\ntapahtumankäsittelijä lähettää lomakkeen tiedot palvelimelle
+end note
+Palvelin->Selain: Palvelin vastaa pyyntöön: 201 created

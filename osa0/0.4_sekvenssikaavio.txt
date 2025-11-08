@@ -1,0 +1,11 @@
+title Uusi muistiinpano
+
+Selain->Palvelin: HTTP Post -pyyntö sivulle\nhttps://studies.cs.helsinki.fi/exampleapp/new_note
+note over Palvelin:
+Lomakkeen tiedot menevät tämän pyynnön mukana\npalvelimelle
+end note
+Palvelin->Selain: Uudelleenohjauspyyntö selaimelle\nosoitteeseen /exampleapp/notes
+Selain->Palvelin: HTTP Get -pyyntö sivulle\nhttps://studies.cs.helsinki.fi/exampleapp/notes
+note over Selain: 
+Selain lataa palvelimelta tässä vaiheessa notes-sivun\nHTML-tiedoston mukaisesti main.css ja main.js, jonka\ntapahtumankäsittelijä renderöi muistiinpanot näytölle
+end note
